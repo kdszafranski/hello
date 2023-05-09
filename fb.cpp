@@ -2,8 +2,7 @@
 /*
 any number divisible by three with the word "fizz",
 any number divisible by five with the word "buzz", and
-any number divisible by both 3 and 5 with the word "fizzbuzz".
-
+any number divisible by both 3 and 5 with the word "fizzbuzz".  
 */
 
 #include <iostream>
@@ -27,7 +26,7 @@ int main() {
 
 void fizzBuzz(int *param) { // creates a pointer to array
 
-    for(int i = 0; i < 8; i++) {
+    for(int i = 0; i < 6; i++) {
         cout << param[i] << ": ";
 
         if(param[i] == 0) {
